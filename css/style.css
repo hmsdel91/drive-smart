@@ -1,0 +1,226 @@
+.article{
+	border: 1px solid #1F313C;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+.background{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	color: white;
+}
+
+.button{
+	border-radius: 12px;
+	border: none;
+	background: #fd324e;
+	background: linear-gradient(to left,#fe344e,#ff7250);
+	color: white;
+	padding: 7px 12px;
+	margin-top: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.cars{
+	color: #1F313C;
+}
+
+.cars h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.col-1, .col-2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col-1{
+	margin-right: 15px;
+}
+
+.col-2{
+	align-items: center;
+}
+
+.contact{
+	display: flex;
+	width: 300px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.contact a{
+	color: white;
+	text-decoration: none;
+	margin: -25px 10px 10px 0;
+}
+
+.contact img{
+	display: block;
+}
+
+.contact strong{
+	display: block;
+}
+
+.container{
+	width: 800px;
+	margin: auto;	
+}
+
+.container-article-a{
+	padding-left: 20px;
+
+}
+
+.container-article-b{
+	margin-left: 505px;
+
+}
+
+.cover{
+	color: white;
+	padding: 20px;
+	height: 500px;
+}
+
+.cover button{
+	margin-bottom: 70px;
+}
+
+.cover .container-title{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+	background: #273b47;
+}
+
+.footer .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form{
+	display: flex;
+	width: 400px;
+	color: white;
+}
+
+.form label, .gender, .interest{
+	margin-bottom: 10px;
+}
+
+.gender{
+	margin-top: 10px;
+}
+
+.header{
+	position: relative;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.interest label{
+	font-size: 11px;
+}
+
+.left{
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+.logotype{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu li:before{
+	content: "∗";
+	font-size: 30px;
+	line-height: 10px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	top: -97px;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+}
+
+th{
+	padding: 10px;
+}
+
+td{
+	padding: 20px;
+	text-align: center;
+}
+
+table, td, th{
+	border: 1px solid #273b47;
+}
+
+.title{
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 70px;
+	margin-bottom: 0;
+}
+
+.title-a{
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.title-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+

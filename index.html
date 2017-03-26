@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drive Smart</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <section id="cover" class="cover background"> 
+    <header id="header" class="header container"> 
+      <figure class="logotype"> 
+        <img src="img/logo_white.png" width="200" alt="Logo"/>
+      </figure>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#cars">Cars</a>
+          </li>
+          <li>
+            <a href="#">Prices</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <div class="container-title">
+        <h1 class="title">Drive Smart</h1>
+        <h3 class="title-a">The Cars We Drive Say A Lot About Us</h3>
+        <a href="#cars" class="button">Learn More</a>
+      </div>
+    </section>
+    <section id="cars" class="cars container"> 
+      <h2>Our Cars</h2>
+      <article class="article"> 
+        <img src="img/audi.png" class="right" alt="Audi" width="400"/>
+        <div class="container-article-a">
+          <h3 class="title-b">Audi</h3>
+          <ol>
+            <li>Several Models</li>
+            <li>Multiple colors</li>
+            <li>Find The One For You</li>
+          </ol>
+        </div>
+      </article>
+      <article class="article">
+        <img src="img/bmw.png" class="left" alt="Bmw" width="450"/>
+        <div class="container-article-b">
+          <h3 class="title-b">BMW</h3>
+          <ol>
+            <li>Several Models</li>
+            <li>Multiple colors</li>
+            <li>Find The One For You</li>
+          </ol>
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="contact">
+          <img src="img/logo_white.png" width="200" alt="Logo White">
+          <a href="tel:202-555-0193"><strong>Phone</strong><span>202-555-0193</span></a>
+          <a href="mailto:contact@drivesmart.com"><strong>Contact Us</strong><span>contact@drivesmart.com</span></a>
+        </div>
+        <form class="form">
+          <div class="col-1">
+            <label for="name">Name</label>
+            <input type="text" required id="name"  name="name"/>
+            <label for="email">Email</label>
+            <input type="email" required id="email" name="email" />
+            <div class="gender">
+              <label for="male">
+                <input type="radio" id="male" checked name="gender" value="Male"> Male
+              </label>
+              <label for="female">
+                <input type="radio" id="female" name="gender" value="Female"> Female
+              </label>           
+            </div>
+            <div class="interest">
+              <label for="quotation">
+                <input type="checkbox" checked id="quotation" name="interest" value="quotation"> Quotation
+              </label>
+              <label for="complaints">
+                <input type="checkbox" id="complaints" name="interest" value="Complaints"> Complaints
+              </label>
+              <label for="comments">
+                <input type="checkbox" id="comments" name="interest" value="Comments"> Comments
+              </label>
+              <label for="other">
+                <input type="checkbox" id="other" name="interest" value="Other"> Other
+              </label>        
+            </div>
+          </div>  
+          <div class="col-2">
+            <label for="issues">Issues</label>
+            <textarea name="issues" id="issues" cols="30" rows="7"></textarea>
+            <input type="submit" value="Submit" class="button">
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
